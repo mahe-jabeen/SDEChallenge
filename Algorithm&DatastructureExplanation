@@ -31,3 +31,7 @@ Now, when the new element come in, oldest element from the window will be out an
 
 -------------------------------------------------------------------------------
 
+Datastructure Explanation:
+Queue operates in similar fashion(FIFO = first in first out)
+We will use Queue and make sure the size of queue is equal to size of window, when the size exceeds, we will pull the element from the queue, which will remove the first entry and make space for new elements.
+While adding and removing the element from the window, add(new element coming inside the window) and subtract(old element getting out of the window) element from the total sum of the window and we can get the average by (sum of the window / window size).
