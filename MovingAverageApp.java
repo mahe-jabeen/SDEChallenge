@@ -1,6 +1,6 @@
 package com.movingaverage;
 
-/** EXPLANATION:
+/** Implementation EXPLANATION:
 
 Input:  Stream of numbers = 3, 5, 2, 8, 1, 2, 9, 1.5, 7.5, 5.5 ....
         Average Size = 4
